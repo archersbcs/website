@@ -7,9 +7,11 @@ authorbox = false
 
 {{< build.inline >}}
 {{ $keys := slice "abbreviatedHash" "commitDate" }}
-<!-- Ugly hack GitInfo to json to dict -->
+
+<!-- Hack - GitInfo to json to dict -->
 {{ $j := .Page.GitInfo | jsonify (dict "indent" "  ") }}
 {{ $gitinfo :=  unmarshal $j }}
+<!-- /Hack -->
 
 <table>
     <tr>
