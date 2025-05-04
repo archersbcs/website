@@ -15,7 +15,7 @@ authorbox = false
 
 <table>
     <tr>
-        <td>Build</td>
+        <td>build</td>
         <td>{{- time.Now }}</td>
     </tr>
     {{- range $k := $keys }}
