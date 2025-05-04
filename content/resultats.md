@@ -8,10 +8,12 @@ authorbox = false
 weight = 80
 +++
 
-### Résultats
-[Flèches](fleches)
+### Flèches et plumes
+[Résultats des passages de flèches](resultats-fleches)
 
----
+Règlements:
+* [Flèches](reglements-fleches)
+* [Plumes](reglement-plumes)
 
 ### Concours
 [Mandats](mandats)
